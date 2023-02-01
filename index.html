@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shafaan Amir</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/d4a7da6047.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="site-main-wrapper">
+      <!----------------------mobile-nav--------------------------->
+      <!--<div class="mobile-nav">
+        <button class="cross"><img src="./images/cross.png" alt="" /></button>
+        <img src="./images/logo.png" alt="" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <----------------------navbar---------------------------->
+      <header>
+        <div class="container">
+          <nav
+            id="main-nav"
+            class="navbar flex items-center justify-between height-nav-resp"
+          >
+            <div class="left flex items-center">
+              <div class="nav-list visibility-resp">
+                <div class="logo">
+                  <img src="./logo.png" alt="" />
+                </div>
+
+                <div class="nav-items">
+                  <a href="#">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#services">Services</a>
+                  <a href="#works">Works</a>
+                  <a href="#reviews">Reviews</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="right visibility-resp">
+              <button id="scrollButton" class="btn btn-primary">CONTACT</button>
+            </div>
+
+            <button class="hamberger">
+              <img src="./hamburger.png" alt="" />
+            </button>
+          </nav>
+          <!----------------------------------------------------------------->
+          <div class="heroin flex items-center justify-between">
+            <div class="left flex-1 flex justify-center">
+              <img src="./pink1.jpg" alt="" />
+            </div>
+            <div class="right flex-1">
+              <h6>Hi, It's Shafaan Amir</h6>
+              <h1>I'm a COMPUTER <span>SCIENTIST</span>!</h1>
+              <p>
+                And I have been working as a web developer and graphic designer
+                on UPwork since 2021. Client's satisfaction and appreciation is
+                my top tier priority.
+              </p>
+              <div>
+                <button
+                  onclick="downloadFile()"
+                  class="btn btn-secondary"
+                  style="margin-bottom: 3rem"
+                >
+                  Download CV
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!---------------------------about---------------------------- -->
+      <section id="about" class="about">
+        <div class="container flex items-center">
+          <div class="flex-1">
+            <img class="about-img" src="./blue1.jpg" alt="" />
+          </div>
+
+          <div class="text flex-1">
+            <h1>About ME</h1>
+            <!--<h3>I'm Shafaan Amir</h3>-->
+            <!--<p>Lorem ipsum dolor, sit amet consectetur.</p>-->
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                SKILLS
+              </p>
+              <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                EXPERIENCE
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />Developing responsive
+                  websites
+                </li>
+                <li>
+                  <span>Graphic Designing</span><br />Adobe Illustrator & Canva
+                </li>
+                <li>
+                  <span>UI/UX Designing</span><br />Designing web interfaces
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022 - Current</span><br />BS in Computer Sciences
+                </li>
+                <li><span>2022</span><br />Graphic Designing</li>
+                <li><span>2021</span><br />Fsc Pre Medical</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2021 - Current</span><br />As a Freelancer On UPwork
+                </li>
+                <!--
+                <li>
+                  <span>2021 - Current</span><br />As a Freelancer On Fiverr
+                </li>-->
+                <li>
+                  <span>2023</span><br />As a Digital Creator On Instagram
+                </li>
+              </ul>
+            </div>
+
+            <div class="social">
+              <a class="mail" href="#contact"
+                ><img src="./mail.png" alt=""
+              /></a>
+              <a
+                class="insta"
+                href="https://www.instagram.com/shafaan_amir/"
+                target="_blank"
+                ><img src="./instagram.png" alt=""
+              /></a>
+              <a
+                class="twitter"
+                href="https://twitter.com/_wineApple_"
+                target="_blank"
+                ><img src="./twitter.png" alt=""
+              /></a>
+              <a class="phone" href="#contact"
+                ><img src="./phone.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------------------services--------------------------->
+      <section id="services" class="services">
+        <div class="container">
+          <h1 class="section-heading">MY SERVICES</h1>
+          <p>
+            The services I can provide to my clients during projects/contracts
+            are given below
+          </p>
+          <div class="card-wrapper">
+            <div class="card">
+              <img src="./graphic.gif" alt="" />
+              <h2>Graphic Design</h2>
+              <p>
+                I am well experienced Graphic Designer. I use ADOBE Illustrator,
+                ADOBE Photoshop and CANVA to provide my clients unique products
+                with high resolution .
+              </p>
+            </div>
+
+            <div class="card">
+              <img src="./development.gif" alt="" />
+              <h2>Web Development</h2>
+              <p>
+                I am well experienced Web Developer. I use HTML, CSS and
+                JAVASCRIPT to provide my clients aesthetic and responsive
+                websites.
+              </p>
+            </div>
+
+            <div class="card">
+              <img src="./webdesign.gif" alt="" />
+              <h2>Web Design</h2>
+              <p>
+                I design my websites according to the client's requirements and
+                needs. The design will perfectly reflect the interest and brand
+                identity of client's business.
+              </p>
+            </div>
+
+            <div class="card">
+              <img src="./responsive.gif" alt="" />
+              <h2>Responsive</h2>
+              <p>
+                I use cascading style sheet media queries while developing the
+                website, that's why my websites are responsive and good looking
+                at every screen dimension.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------------------------Works-------------------------------------->
+      <section id="works" class="works">
+        <div class="container">
+          <h1 class="section-heading">MY WORKS</h1>
+          <p>Some of my work related to Graphic Designing is presented below</p>
+          <div class="card-wrapper">
+            <div class="card">
+              <img src="./work1.jpeg" alt="" />
+              <div class="layer">
+                <h3>Business Cards</h3>
+                <p>
+                  Designed in ADOBE Illustrator and CANVA to provide you high
+                  resolution.
+                </p>
+                <!--
+                <a href="#"
+                  ><i
+                    class="fa-sharp fa-solid fa-arrow-up-right-from-square"
+                  ></i
+                ></a> -->
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="./work2.jpeg" alt="" />
+              <div class="layer">
+                <h3>Business Cards</h3>
+                <p>
+                  Designed in ADOBE Illustrator and CANVA to provide you high
+                  resolution.
+                </p>
+                <!--
+                <a href="#"
+                  ><i
+                    class="fa-sharp fa-solid fa-arrow-up-right-from-square"
+                  ></i
+                ></a> -->
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="./work3.png" alt="" />
+              <div class="layer">
+                <h3>Business Cards</h3>
+                <p>
+                  Designed in ADOBE Illustrator and CANVA to provide you high
+                  resolution.
+                </p>
+                <!---
+                <a href="#"
+                  ><i
+                    class="fa-sharp fa-solid fa-arrow-up-right-from-square"
+                  ></i
+                ></a> -->
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="./work4.png" alt="" />
+              <div class="layer">
+                <h3>Christmas Cards</h3>
+                <p>
+                  Designed in ADOBE Illustrator and CANVA to provide you high
+                  resolution.
+                </p>
+                <!---
+                <a href="#"
+                  ><i
+                    class="fa-sharp fa-solid fa-arrow-up-right-from-square"
+                  ></i
+                ></a> -->
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="./work5.png" alt="" />
+              <div class="layer">
+                <h3>Christmas Cards</h3>
+                <p>
+                  Designed in ADOBE Illustrator and CANVA to provide you high
+                  resolution.
+                </p>
+                <!---
+                <a href="#"
+                  ><i
+                    class="fa-sharp fa-solid fa-arrow-up-right-from-square"
+                  ></i
+                ></a> -->
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="./work6.png" alt="" />
+              <div class="layer">
+                <h3>Christmas Cards</h3>
+                <p>
+                  Designed in ADOBE Illustrator and CANVA to provide you high
+                  resolution.
+                </p>
+                <!---
+                <a href="#"
+                  ><i
+                    class="fa-sharp fa-solid fa-arrow-up-right-from-square"
+                  ></i
+                ></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-----------------------------freelancer-------------------------------->
+      <section class="freelancer">
+        <h1>I am available for Freelancing.</h1>
+        <p>
+          I have been working on UPwork since 2021. You can view my profile by
+          pressing the button below
+        </p>
+        <button
+          onclick="window.open('https://www.upwork.com/freelancers/~010b0d93dce0e5eacf?viewMode=1','_blank')"
+          class="btn btn-primary"
+        >
+          Hire Me
+        </button>
+      </section>
+
+      <!----------------------------reviews----------------------------------->
+
+      <section id="reviews" class="reviews">
+        <div class="container">
+          <h1 class="section-heading">TESTIMONIAL</h1>
+          <p>Feedback and review I recieved from my previous client</p>
+          <div class="slider">
+            <div class="slide">
+              <img src="./iftikhar_sahab.jpg" alt="" />
+              <p>
+                It was really great and easy to work with Shafaan as she
+                responses very fast and finishes work before deadline. I'll work
+                with her again InshaAllah!
+              </p>
+              <span>-Iftikhar Ahmed</span>
+            </div>
+            <!---
+            <div class="slide">
+              <img src="./images/review1.jpeg" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio laboriosam asperiores quos? Qui voluptate quidem
+                veniam numquam id perferendis animi.
+              </p>
+              <span>-Iftikahr Ahmed</span>
+            </div>
+
+            <div class="slide">
+              <img src="./images/review1.jpeg" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio laboriosam asperiores quos? Qui voluptate quidem
+                veniam numquam id perferendis animi.
+              </p>
+              <span>-Iftikahr Ahmed</span>
+            </div> -->
+            <!-----------------------------slider-------------------------------->
+            <!---
+            <div class="slide">
+              <img src="./images/review1.jpeg" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio laboriosam asperiores quos? Qui voluptate quidem
+                veniam numquam id perferendis animi.
+              </p>
+              <span>-Iftikahr Ahmed</span>
+            </div>
+          </div>
+          <div class="slider-dots"></div>
+        </div> -->
+      </section> 
+      <!-----------------------------technologies-------------------------------->
+      <section class="techs">
+        <div class="container">
+          <h1 class="section-heading">TECHNOLOGIES I USE</h1>
+          <div class="card-wrapper" data-aos="zoom-in">
+            <div class="card">
+              <img src="./html.png" alt="" />
+            </div>
+
+            <div class="card">
+              <img src="./js.png" alt="" />
+            </div>
+
+            <div class="card">
+              <img src="./figma.jpg" alt="" />
+            </div>
+
+            <div class="card">
+              <img src="./ai.jpg" alt="" />
+            </div>
+
+            <div class="card">
+              <img src="./lr.png" alt="" />
+            </div>
+
+            <div class="card">
+              <img src="./css.png" alt="" />
+            </div>
+
+            <div class="card">
+              <img src="./python.png" alt="" />
+            </div>
+
+            <div class="card">
+              <img src="./c++.png" alt="" />
+            </div>
+
+            <div class="card">
+              <img src="./bootstra.png" alt="" />
+            </div>
+
+            <div class="card">
+              <img src="./canva.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------------------contact--------------------->
+      <section id="contact" class="contact">
+        <div class="container">
+          <h1 class="section-heading">CONTACT ME</h1>
+          <p>
+            To contact me, You can email me, whatsapp me at given number or send
+            me message directly from here
+          </p>
+          <div class="card-wrapper">
+            <div class="card">
+              <img src="./consult.gif" alt="" />
+              <h2>Contact Me On</h2>
+              <h6>+92347-1677801</h6>
+            </div>
+
+            <div class="card">
+              <img src="./mailing.gif" alt="" />
+              <h2>Mail Me At</h2>
+              <h6>shanam744@gmail.com</h6>
+            </div>
+
+            <div class="card">
+              <img src="./hiring.gif" alt="" />
+              <h2>Hire Me On UPwork</h2>
+              <h6>Shafaan A.</h6>
+            </div>
+          </div>
+
+          <form name="submit-to-google-sheet" action="">
+            <div class="input-wrap">
+              <input
+                class="text"
+                type="text"
+                name="Name"
+                placeholder="Your Name *"
+              />
+              <input
+                class="email"
+                type="email"
+                name="Email"
+                placeholder="Your Email *"
+              />
+            </div>
+            <div class="input-wrap2">
+              <textarea
+                name="Message"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Type your message here..."
+              ></textarea>
+            </div>
+
+            <div class="btn-wrapper">
+              <button class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+          <span id="msj"></span>
+        </div>
+      </section>
+      <!--------------------footer------------------->
+
+      <footer>
+        <div class="up">
+          <div class="text-wrapper">
+            <div class="card">
+              <h3>SERVICES</h3>
+              <ul>
+                <li>GRAPHIC DESIGN</li>
+                <li>WEB DEVELOPMENT</li>
+                <li>WEB DESIGN</li>
+                <li>RESPONSIVE</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3>TECHNOLOGIES I USE</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>PYTHON</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3>TECHNOLOGIES I USE</h3>
+              <ul>
+                <li>C++</li>
+                <li>FIGMA</li>
+                <li>ADOBE ILLUSTRATOR</li>
+                <li>CANVA</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <img class="footer-logo" src="/logo.png" alt="" />
+        <div class="footer-socials">
+          <a class="mail" href="#contact"
+            ><img src="/mail.png" alt=""
+          /></a>
+          <a
+            class="insta"
+            href="https://www.instagram.com/shafaan_amir/"
+            target="_blank"
+            ><img src="/instagram.png" alt=""
+          /></a>
+          <a
+            class="twitter"
+            href="https://twitter.com/_wineApple_"
+            target="_blank"
+            ><img src="/twitter.png" alt=""
+          /></a>
+          <a class="phone" href="#contact"
+            ><img src="/phone.png" alt=""
+          /></a>
+        </div>
+        <div class="copyright">Copyrigth © 2023 - All rights reserved</div>
+      </footer>
+    </div>
+
+    <!------------------scripts-------------------->
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <!------------------------------review slick----------------------->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./app.js"></script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzbcrpPI0RZZtApC5JlAFSOjmZBAfI2iXrQ75A2NEofUKtSo9xzcuVTgU2oOr_-Fano/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msj = document.getElementById("msj");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msj.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msj.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <!------------------AOS DATA-------------------------->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>
