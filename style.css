@@ -1171,7 +1171,7 @@ header .hamberger{
     }
 }
 
-@media only screen and (max-width:583px){
+@media only screen and (max-width:585px){
     header .hamberger img{
         margin-right: .5rem;
     }
@@ -1216,6 +1216,10 @@ header .hamberger{
     }
     section.works .card-wrapper {
         grid-template-columns: repeat(2, 1fr)
+    }
+    section.works .card-wrapper .card .layer{
+        font-size: 10px;
+        margin-bottom: 1px;
     }
     footer .up .text-wrapper .card h3{
         font-size: 1rem;
