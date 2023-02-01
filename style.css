@@ -1027,6 +1027,17 @@ header .hamberger{
     section.services .card-wrapper .card {
         padding: 3rem 2rem;
     }
+    section.techs .card-wrapper{
+        background-color: #DFDFDE;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+        border-radius: 3px;
+    }
+    section.techs .card-wrapper .card img{
+        width: 56px;
+    }
 }
 
 @media only screen and (max-width: 968px){
@@ -1102,6 +1113,9 @@ header .hamberger{
     }
     section.about .text{
         margin-left: 1px;
+    }
+    section.about .text .tab-titles .tab-links{
+        margin-right: 1.5rem;
     }
     section.services .card-wrapper{
         grid-template-columns: repeat(1, 1fr);
