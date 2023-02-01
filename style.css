@@ -1227,7 +1227,7 @@ header .hamberger{
         padding: 0 0;
     }
     section.freelancer{
-        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/upworklogo.jpg) fixed;
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./upworklogo.jpg) fixed;
     }
 }
 
