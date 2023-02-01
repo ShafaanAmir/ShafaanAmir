@@ -1400,8 +1400,8 @@ header .hamberger{
         align-items: center;
     }
     section.about .text .tab-titles .tab-links{
-        margin-right: 36px;
         font-size: 10px;
+        margin: 0.5rem;
     }
     .section-heading{
         font-size: 1.2rem;
