@@ -43,7 +43,7 @@ cross.addEventListener('click', function(){
 function downloadFile(){
     var link = document.createElement("a");
     link.download = "CV";
-    link.href = "../resume.png";
+    link.href = "./resume.png";
     link.click();
 }
 
